@@ -119,7 +119,7 @@ public static class OperatingSystemUtils
         }
         catch (System.Exception e)
         {
-            Debug.LogError("[LevelLoader] ZipFolder exception: " + e.ToString());
+            Debug.LogError("[OperatingSystemUtils] ZipFolder exception: " + e.ToString());
             return null;
         }
     }
@@ -141,7 +141,7 @@ public static class OperatingSystemUtils
         }
         catch (System.Exception e)
         {
-            Debug.LogError("[LevelLoader] OpenFileExplorerWithSelected exception: " + e.ToString());
+            Debug.LogError("[OperatingSystemUtils] OpenFileExplorerWithSelected exception: " + e.ToString());
             return false;
         }
 
